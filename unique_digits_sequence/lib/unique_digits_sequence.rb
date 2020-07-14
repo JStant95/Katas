@@ -1,3 +1,3 @@
 def next_unique_digit(sequence)
-  1
+  sequence
 end
