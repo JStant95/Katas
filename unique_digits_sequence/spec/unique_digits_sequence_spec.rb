@@ -17,9 +17,9 @@ describe "next_unique_digit" do
     expect(next_unique_digit(10)).to eq(10)
   end
 
-  # it "Returns 11th unique digit" do
-  #   expect(next_unique_digit(11)).to eq(22)
-  # end
+  it "Returns 11th unique digit" do
+    expect(next_unique_digit(11)).to eq(22)
+  end
 end
 
 describe "includes_digit" do
