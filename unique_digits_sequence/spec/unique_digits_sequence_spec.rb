@@ -20,6 +20,14 @@ describe "next_unique_digit" do
   it "Returns 11th unique digit" do
     expect(next_unique_digit(11)).to eq(22)
   end
+
+  it "Returns 100th unique digit" do
+    expect(next_unique_digit(100)).to eq(103)
+  end
+
+  it "Works up to 500 digits" do
+    expect(next_unique_digit(500)).to eq(476)
+  end
 end
 
 describe "includes_digit" do
